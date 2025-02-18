@@ -1,0 +1,37 @@
+{
+"description": "Left CMD -> en",
+"manipulators": [
+{
+"from": {
+"key_code": "left_command"
+},
+"to": [
+{
+"key_code": "left_command"
+}],
+"to_if_alone": [
+{
+"select_input_source": {
+"language": "en"
+}}],
+"type": "basic"
+}]},
+{
+"description": "Right CMD -> ru",
+"manipulators": [
+{
+"from": {
+"key_code": "right_command"
+},
+"to": [
+{
+"key_code": "right_command"
+}
+],
+"to_if_alone": [
+{
+"select_input_source": {
+"language": "ru"
+}}],
+"type": "basic"
+}]}
